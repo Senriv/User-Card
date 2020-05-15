@@ -1,0 +1,43 @@
+
+
+.userCard {
+    width: 400px;
+    border: blue;
+    box-sizing: border-box;
+    height: auto;
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: gray;
+
+}
+
+
+.userFullName{
+    background-color: white;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.userImageContainer{
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 75px;
+
+}
+
+.userImageContainer > img{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+
+.userInfoContainer{
+
+}
+
+.message{
+
+}
