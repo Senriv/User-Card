@@ -1,23 +1,41 @@
+:root{
+    font-family: 'Roboto', sans-serif;
+    --primary-color: black;
+}
+
+body{
+    background-color: #6f7788;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 .userCard {
-    width: 400px;
-    border: blue;
     box-sizing: border-box;
+    width: 300px;
     height: auto;
     overflow: hidden;
     border-radius: 20px;
-    background-color: gray;
+    color: white;
+    box-shadow: 3px 3px 8px -1px rgba(0,0,96,1);
+}
 
+.userCardInfo{
+    padding: 20px;
+    background-color: #393c45;
 }
 
 
 .userFullName{
     background-color: white;
-    font-size: 30px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    width: 100%;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-align: center;
+    color: var(--primary-color);
+    overflow: hidden;
 }
 
 .userImageContainer{
@@ -25,6 +43,9 @@
     height: 150px;
     overflow: hidden;
     border-radius: 75px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -34,7 +55,16 @@
     object-fit: cover;
 }
 
-.userInfoContainer{
+.userText{
+    text-align: justify;
+    font-size: 15px;
+    text-transform: capitalize;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.userStatContainer{
 
 }
 
